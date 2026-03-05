@@ -7,6 +7,7 @@ This keeps track of my custom patches and configurations
 * [fibonacci](https://dwm.suckless.org/patches/fibonacci/)
 * [restartsig](https://dwm.suckless.org/patches/restartsig/)
 * [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
+* [movestack](https://dwm.suckless.org/patches/movestack/)
 
 ## Requirements
 * Xorg
