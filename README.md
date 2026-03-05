@@ -17,6 +17,7 @@ This keeps track of my custom patches and configurations
 * libXft
 * make
 * a C compiler
+* flameshot (optional, see `config.def.h`)
 
 ## Installation
 ```bash

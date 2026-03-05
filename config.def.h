@@ -73,6 +73,7 @@ static const char *dmenucmd[] = {
 static const char *termcmd[]  = { "st", NULL };
 static const char *browsercmd[]  = { "librewolf", NULL };
 static const char *xfecmd[]  = { "xfe", NULL };
+static const char *prtscrcmd[]  = { "flameshot", "gui", NULL };
 
 #include "movestack.c"
 static const Key keys[] = {
@@ -81,6 +82,7 @@ static const Key keys[] = {
 	{ MODKEY,             			XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,             			XK_b,  	   spawn,          {.v = browsercmd } },
 	{ MODKEY,             			XK_f,  	   spawn,          {.v = xfecmd } },
+	{ MODKEY,             			XK_Print,  spawn,          {.v = prtscrcmd } },
 	{ MODKEY,                       XK_p,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -101,7 +103,7 @@ static const Key keys[] = {
 	{ MODKEY|ControlMask,           XK_r,      setlayout,      {.v = &layouts[4]} },
 	{ MODKEY|ControlMask,			XK_comma,  cyclelayout,    {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1 } },
-	//{ MODKEY,                       XK_space,  setlayout,      {0} },
+	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
