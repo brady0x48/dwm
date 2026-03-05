@@ -9,6 +9,7 @@ This keeps track of my custom patches and configurations
 * [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
 * [movestack](https://dwm.suckless.org/patches/movestack/)
 * [pertag](https://dwm.suckless.org/patches/pertag/)
+* [warp](https://dwm.suckless.org/patches/warp/)
 
 ## Requirements
 * Xorg
