@@ -1,0 +1,11 @@
+dwm
+
+*.o
+*.d
+*.orig
+*.rej
+
+config.h
+
+*.log
+
